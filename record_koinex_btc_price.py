@@ -6,8 +6,8 @@ import traceback
 from datetime import datetime
 
 koinex_api_url = 'https://koinex.in/api/ticker'
-# time_delay_in_seconds = 10 * 60
-time_delay_in_seconds = 2
+time_delay_in_seconds = 10 * 60
+# time_delay_in_seconds = 2
 
 # Utility functions
 def print_last_traceback():
